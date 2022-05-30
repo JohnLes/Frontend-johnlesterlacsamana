@@ -1,0 +1,128 @@
+.login_page{
+    position: relative;
+    top: 0;
+    background-image: url('../images/LoginBackground.png');
+    width: 1920px;
+    max-width: 1920px;
+    max-height: 1036px;
+    height: 1036px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    font-size: 12px;
+}
+
+.input_content{
+    display: flex;
+    top: 0;
+    width: 1920px;
+    height: 1036px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display:block;
+    margin-bottom: 100px;
+}
+
+.firstname_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 310px;
+    height: 46px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.firstname_box img{
+    padding: 15.9px;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+#input_firstname{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#FFFFFF;
+    outline: none;
+    font-size: 12px;
+}
+
+#input_firstname::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+  }
+
+.lastname_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 310px;
+    height: 46px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.lastname_box img{
+    padding: 15.9px;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+
+#input_lastname{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#FFFFFF;
+    outline: none;
+    font-size: 12px;
+}
+#input_lastname::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+  }
+
+.btn_get_started{
+    margin-top: 50px;
+    width: 310px;
+    height: 48px;
+    background: #F96332;
+    border-radius: 20.5px;
+    border-style: none;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_get_started:hover{
+    background: #a83109;
+
+}
+
+.other{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 10px;
+    color: #ffffff;
+
+}
+
+.other p{
+    font-size: 10px;
+    padding: 0;
+    color: #ffffff;
+}
+
+Link p{
+    text-decoration: none;
+}

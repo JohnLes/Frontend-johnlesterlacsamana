@@ -1,0 +1,43 @@
+.footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 79px;
+    background-color: #F2F2F2;
+    font-size: 12px;
+}
+
+.footer_left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.footer_right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.footer_options{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+}
+.footer_options:hover{
+    cursor: pointer;
+}
+
+
+.copyrights{
+    position: static;
+    display: flex;
+    align-items: center;
+}
+
+#company_name{
+    color: #F96332;
+    padding-left: 6px;
+}

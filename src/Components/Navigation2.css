@@ -1,0 +1,84 @@
+.nav{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 1920px;
+    z-index: 1;
+}
+
+.nav img{
+    width: 13.3px;
+    height: 13.3px;
+    padding: 10px;
+}
+
+.nav p{
+    padding: 10px;
+}
+
+#dd{
+    width: 4px;
+    height: 7px;
+}
+
+.left_menu{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.asticon_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_menu{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    left: 50%;
+    justify-content: center;
+}
+
+.other_menus{
+    display: flex;
+    align-items: center;
+}
+
+.components{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+
+}
+
+.examples{
+    display: flex;
+    align-items: center;
+
+}
+
+.login_button{
+    border-radius: 4px;
+    background-color: #F96332 ;
+    padding: 11px 21px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    border: none;
+    height: 43px;
+    align-self: center;
+}

@@ -1,0 +1,241 @@
+.contactus{
+    position: relative;
+    max-width: 1920px;
+    width: 1920px;
+}
+
+.contactus_header{
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    height: 622px;
+    background: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus_section1{
+    position: relative;
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contactus_section2{
+    position: relative;
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+}
+
+.contactus_header_content{
+    position: relative;
+    text-align: center;
+    width: 556px;
+    height: 300px;
+    color: #FFFFFF;
+}
+
+.nav_color{
+    position: absolute;
+width: 1920px;
+height: 63px;
+top:0;
+
+/* Color/White */
+
+/* background: #FFFFFF; */
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+z-index: 0;
+}
+
+.contactus_header_content h1{
+    font-size: 49px;
+}
+.contactus_header_content p{
+    font-size: 21px;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: 544px;
+    width: 374px;
+    margin: 0 50px;
+}
+
+.contactus_section1_message{
+    position: relative;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: left;
+    color: #000000;
+    width: 372px;
+}
+
+.contactus_section1_item_title{
+    display: flex;
+    font-size: 21px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.contactus_section1_item_title img{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+.contactus_section1_description{
+    margin-left: 90px;
+    width: 282px;
+    height: 72px;
+    font-size: 15.4px;
+    color: #888888;
+}
+
+.contactus_section1_item{
+    padding-bottom: 30px;
+}
+
+#contactus_section1_title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#contactus_section1_reg{
+    font-size: 18.2px;
+    color: #9A9A9A;
+}
+.contactus_section1_inputs{
+    display:block;
+}
+
+.contactus_section1_inputs textarea{
+    width: 374px;
+}
+
+.contactus_section1_name_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 374px;
+    height: 38px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contactus_section1_name_box img{
+    padding: 10px;
+    width: 14.4px;
+    height: 14.4px;
+}
+
+#contactus_section1_input_name{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+
+
+.contactus_section1_number_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 374px;
+    height: 38px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contactus_section1_number_box img{
+    padding: 10px;
+    width: 14.4px;
+    height: 14.4px;
+}
+
+
+#contactus_section1_input_number{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+.contactus_section1_email_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 374px;
+    height: 38px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.contactus_section1_email_box img{
+    padding: 10px;
+    width: 14.4px;
+    height: 14.4px;
+}
+
+
+#contactus_section1_input_email{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+
+.btn_contactus_section1{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    width: 117px;
+    height: 48px;
+    background: #F96332;
+    border-radius: 20.5px;
+    border-style: none;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    left: 130px;
+}
+
+.btn_contactus_section1_get_started:hover{
+    background: #a83109;
+
+}
+
+.agree{
+    display: flex;
+    font-size: 10px;
+    color: #000000;
+    align-items: center;
+
+}
+
+.agree p{
+    font-size: 14px;
+}

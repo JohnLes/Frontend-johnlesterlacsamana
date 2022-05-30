@@ -1,0 +1,228 @@
+.signup_page{
+    position: relative;
+    top: 0;
+    background-image: url('../images/BackgroundSignUp.png');
+    width: 1920px;
+    max-width: 1920px;
+    max-height: 1036px;
+    height: 1036px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    font-size: 12px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 544px;
+    width: 350px;
+    margin: 0 100px;
+}
+
+.item_title{
+    display: flex;
+    font-size: 18.2px;
+    color: #ffffff;
+}
+
+.item_title img{
+    padding-right: 30px;
+}
+
+.description{
+    margin-left: 55px;
+    width: 282px;
+    font-size: 15.4px;
+    color: #ffffff;
+}
+
+.item{
+    padding-bottom: 30px;
+}
+
+
+.register{
+    position: relative;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#register_title{
+    font-size: 21px;
+}
+
+#reg{
+    
+    font-size: 18.2px;
+    color: #9A9A9A;
+}
+
+.register_social{
+    position: relative;
+    display: flex;
+    width: 140px;
+    justify-self: center;
+    left: 90px;
+}
+
+.register_social button{
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    /* background-color: #F96332; */
+    border-style: none;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn_twitter{
+    background-color: #55ACEE;
+}
+.btn_dribble{
+    background-color: #EA4C89;
+}
+.btn_facebook{
+    background-color: #3B5998;
+}
+
+.register_social button:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+
+}
+
+.register_inputs{
+    display:block;
+}
+
+.register_firstname_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 310px;
+    height: 46px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.register_firstname_box img{
+    padding: 15.9px;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+#register_input_firstname{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+
+
+.register_lastname_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 310px;
+    height: 46px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+
+
+}
+
+.register_lastname_box img{
+    padding: 15.9px;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+
+#register_input_lastname{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+.register_email_box{
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    border: 1px solid #E3E3E3;
+    border-radius: 23.5px;
+    width: 310px;
+    height: 46px;
+    margin-bottom: 6px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.register_email_box img{
+    padding: 15.9px;
+    width: 15.2px;
+    height: 15.2px;
+}
+
+
+#register_input_email{
+    border-style: none;
+    width: 280px ;
+    background: none;
+    color:#000000;
+    outline: none;
+    font-size: 12px;
+}
+
+.btn_register_get_started{
+    margin-top: 30px;
+    width: 117px;
+    height: 48px;
+    background: #F96332;
+    border-radius: 20.5px;
+    border-style: none;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_register_get_started:hover{
+    background: #a83109;
+
+}
+
+.agree{
+    display: flex;
+    font-size: 10px;
+    color: #000000;
+    align-items: center;
+
+}
+
+.check{
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    width: 26px;
+    height: 26px;
+    margin: 0 16px;
+}
+
+.agree p{
+    font-size: 14px;
+}
